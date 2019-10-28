@@ -12,15 +12,15 @@ and other inspiration from [THE GO ONE]
 Get this code, say `make`, copy the *.so* file to your PGHOME/xxx
 
 ```shell
-apt install build-essential postgresql-server-dev-NN
+sudo apt install build-essential postgresql-server-dev-NN
 git clone https://github.com/skeeto/ulid-c.git
 make
-make install
+sudo make install
 ```
 
 
 ```sql
-CREATE EXTENSION ulid AS LOAD OBJECT pg_ulid.so;
+CREATE EXTENSION pg_ulid;
 ```
 
 

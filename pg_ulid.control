@@ -3,6 +3,6 @@
 #
 
 comment = 'ULID datatype and functions'
-default_version = '0.0.1'
+default_version = '0.0.3'
 relocatable = true
 
