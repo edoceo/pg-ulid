@@ -15,7 +15,7 @@ Get this code, say `make`, copy the *.so* file to your PGHOME/xxx
 sudo apt install build-essential postgresql-server-dev-NN
 git clone https://github.com/skeeto/ulid-c.git
 make
-sudo make install
+sudo make install-strip
 ```
 
 
