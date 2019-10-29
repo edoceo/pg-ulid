@@ -5,7 +5,7 @@
 CREATE FUNCTION ulid_create()
  RETURNS text
  LANGUAGE C
- IMMUTABLE STRICT
+ VOLATILE STRICT
  AS '$libdir/pg_ulid';
 
 
